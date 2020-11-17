@@ -1,28 +1,27 @@
-body{
-    font-family: 'Cinzel', serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.7;
-    color: blue;
-    padding: 30px;
+body {
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 30px;
 }
 
-.heading-primary{
-    color: $color-primary;
-    text-transform: uppercase;
-    margin-bottom: 60px;
-    .heading-primary-main{
-     display: block;
-     font-size: 45px;
-     font-weight: 600;
-     letter-spacing: 15px;
-     animation: moveInLeft 1s ease-in;
-    }
-    .heading-primary-sub{
-     display: block;
-     font-size: 35px;
-     font-weight: 600;
-     letter-spacing: 24px;
-     animation: moveInRight 1s ease-out;
-    }
+.heading-primary {
+  color: $color-primary;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  .heading-primary-main {
+    display: block;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    animation: moveInLeft 1s ease-in;
+  }
+  .heading-primary-sub {
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 24px;
+    animation: moveInRight 1s ease-out;
+  }
 }
