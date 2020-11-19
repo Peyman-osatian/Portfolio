@@ -25,3 +25,14 @@ body {
     animation: moveInRight 1s ease-out;
   }
 }
+.heading-tertiary {
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.paragraph {
+  font-size: 19px;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
